@@ -68,6 +68,3 @@ for i = 1:100
     word_(i) = vocabulary(index(i));
 end
 word_
-
-
-
