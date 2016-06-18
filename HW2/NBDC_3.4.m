@@ -69,4 +69,3 @@ for t = 1:length(testlabel);
     confusion(testlabel(t),testlabel_predict(t)) = confusion(testlabel(t),testlabel_predict(t)) + 1;
 end
 surf(confusion);
-confusion
